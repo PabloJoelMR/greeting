@@ -8,5 +8,5 @@ inputs:
     description: 'Who to greet'
     required: true
 runs:
-  using: 'docker'
+  using: 'python'
   main: 'greet.py'
