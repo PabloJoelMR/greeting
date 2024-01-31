@@ -10,3 +10,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  env:
+    first_name: ${{ inputs.first_name }}
+    last_name: ${{ inputs.last_name }}
