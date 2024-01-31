@@ -6,4 +6,4 @@ WORKDIR /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-CMD ["ls -la"]
+CMD ["ls", "-la"]
